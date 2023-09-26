@@ -54,7 +54,7 @@ export default function useRecorddetail() {
     
     const fetchRecord = async (data) => {
         try {
-            const url = `http://192.168.1.119:3000/api/getDateImages/${"any5"}?datetime=${data}`;
+            const url = `http://localhost:3000/api/getDateImages/${"any5"}?datetime=${data}`;
             const response = await fetch(url, {
                 method: "GET",
                 headers: {

@@ -16,7 +16,7 @@ export default function useUpload() {
         // file to string
         const filetostring = file.toString();
         console.log(file);
-        const response = await fetch('http://192.168.1.119:3000/api/upimage', {
+        const response = await fetch('http://localhost:3000/api/upimage', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

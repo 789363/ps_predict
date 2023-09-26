@@ -46,7 +46,7 @@ export default function Recorddetail(props) {
                         <div className="recorddetail__line" />
                     </div>
                     <div>
-                        <img src={isimage} alt="" style={{width:"300px"}}/>
+                        <img src={isimage} alt="" style={{maxWidth:"600px",maxHeight:"500px",width:"100%",height:"100%"}}/>
                     </div>
                 </div>
 

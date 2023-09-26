@@ -21,7 +21,7 @@ export default function useRecordlist() {
     const [isRecord, setRecord] = useState(true);
     const fetachRecord = async (data) => {
         try {
-            const url = `http://192.168.1.119:3000/api/getUserImages/${"any5"}`;
+            const url = `http://localhost:3000/api/getUserImages/${"any5"}`;
             const response = await fetch(url, {
                 method: "get",
                 headers: {
